@@ -16,7 +16,7 @@ nodePortProxy:
   replicas: 3
   image:
     repository: "quay.io/kubermatic/nodeport-proxy"
-    tag: "dfa5adcdb538e55b6ecf8c676867955aa254f6d5"
+    tag: "2acfea59bc2edb09ccbecf119b0d99e5c7e95538"
   envoy:
     image:
       repository: "docker.io/envoyproxy/envoy-alpine"
